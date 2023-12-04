@@ -31,6 +31,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.taskipy.tasks]
+init = "pre-commit install"
 test = "pytest -s -vv --cov=. --cov-branch --cov-report=html"
 format = "task format-black && task format-isort"
 format-black = "black src tests"
