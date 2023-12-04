@@ -1,0 +1,17 @@
+# python
+.venv/
+__pycache__/
+
+# poetry
+poetry.lock
+
+# pytest
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
